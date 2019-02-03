@@ -1,0 +1,83 @@
+
+
+#webapp-counter {
+    position: relative;
+    z-index: -1;
+    padding-top: 7em;
+    padding-bottom: 7em;
+  }
+  #webapp-counter .webapp-heading {
+    margin-bottom: 30px;
+  }
+  #webapp-counter .webapp-heading h2 {
+    color: #fff;
+  }
+  #webapp-counter .webapp-heading p {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .counter-entry {
+    padding: 0;
+    position: relative;
+  }
+  @media screen and (max-width: 768px) {
+    .counter-entry {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .webapp-counters {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  .webapp-counters .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #9932cc;
+    background: -moz-linear-gradient(-45deg, #9932cc 0%, #798eea 100%);
+    background: -webkit-gradient(
+      left top,
+      right bottom,
+      color-stop(0%, #9932cc),
+      color-stop(100%, #798eea)
+    );
+    background: -webkit-linear-gradient(-45deg, #9932cc 0%, #798eea 100%);
+    background: -o-linear-gradient(-45deg, #9932cc 0%, #798eea 100%);
+    background: -ms-linear-gradient(-45deg, #9932cc 0%, #798eea 100%);
+    background: -webkit-linear-gradient(315deg, #9932cc 0%, #798eea 100%);
+    background: -o-linear-gradient(315deg, #9932cc 0%, #798eea 100%);
+    background: linear-gradient(135deg, #9932cc 0%, #798eea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9932CC', endColorstr='#798eea', GradientType=1 );
+    opacity: 0.96;
+  }
+  .webapp-counters .icon {
+    margin-bottom: 20px;
+    width: 100px;
+    z-index: 0;
+  }
+  .webapp-counters .icon i {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+  }
+  .webapp-counters .webapp-counter {
+    font-size: 75px;
+    display: block;
+    color: #fff;
+    font-family: "Nunito", Arial, sans-serif;
+    width: 100%;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  .webapp-counters .webapp-counter-label {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    display: block;
+    font-weight: 300;
+  }

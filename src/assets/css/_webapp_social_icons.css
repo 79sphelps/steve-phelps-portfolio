@@ -1,0 +1,27 @@
+
+.webapp-social-icons {
+    margin: 0;
+    padding: 0;
+  }
+  .webapp-social-icons li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+  .webapp-social-icons li a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    color: #4aca85;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .webapp-social-icons li a i {
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,30 @@
+
+.webapp-intro .webapp-heading {
+    margin-bottom: 2em;
+  }
+  
+  .webapp-intro .play {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+  }
+  .webapp-intro .play a {
+    width: 100px;
+    height: 100px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    background: #798eea;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .webapp-intro .play a i {
+    font-size: 20px;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  

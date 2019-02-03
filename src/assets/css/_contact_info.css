@@ -1,0 +1,39 @@
+
+
+.contact-info-wrap-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  .contact-info-wrap-flex .con-info {
+    width: 100%;
+    background: #fff;
+    padding: 1.5em;
+    background: white;
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    .contact-info-wrap-flex .con-info {
+      width: 100%;
+      margin: 4px !important;
+    }
+  }
+  .contact-info-wrap-flex p {
+    margin-bottom: 0;
+    color: #000;
+  }
+  .contact-info-wrap-flex p span i {
+    color: #4aca85;
+  }
+  .contact-info-wrap-flex p a {
+    color: #000;
+  }
+  

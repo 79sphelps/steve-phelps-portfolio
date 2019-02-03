@@ -1,0 +1,28 @@
+.services {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 0;
+    padding: 0 1em;
+  }
+  @media screen and (max-width: 768px) {
+    .services {
+      margin-bottom: 3em;
+    }
+  }
+  .services .icon {
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  .services .icon i {
+    font-size: 50px;
+    color: #798eea;
+    z-index: 1;
+  }
+  .services .desc h3 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+  
+  
+  
