@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+body:not(.modal-open){
+    padding-right: 0px !important;
+  }
