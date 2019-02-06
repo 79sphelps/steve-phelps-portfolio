@@ -1,7 +1,36 @@
-.modal-lg {
-    max-width: 60% !important;
+@media screen and (max-width: 1000px) {
+    .modal-lg {
+        max-width: 70% !important;
+    }
 }
+
+@media screen and (max-width: 350px) {
+    .modal-lg {
+        max-width: 100% !important;
+    }
+}
+
 
 .modal-open {
     padding-right: 0px !important;
 }
+
+/*
+@media screen and (max-width: 1000px) {
+    .jumbotron {
+       background-image:url('http://www.part-box.com/images/yellow-frog.png');
+        height: 200px; // customize it
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+}
+
+@media screen and (max-width: 300px) {
+    .jumbotron {
+       background-image:url('http://www.part-box.com/images/yellow-frog.png');
+        height: 500px; //customize it
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+}
+*/
