@@ -1,0 +1,17 @@
+
+.list-checkmarks {
+  padding-left: 1.0rem;
+}
+
+.list-checkmarks li {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.list-checkmarks li:before {
+  font-family: "FontAwesome";
+  /* content: "\f00c"; */
+  content: url(../../assets/images/success-check.png);
+  margin: 0 10px 0 -28px;
+  color: #17aa1c;
+}
