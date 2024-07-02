@@ -11,7 +11,8 @@
     width: 100%;
     height: 100%;
     background-color: black; /* fallback color */
-    background-image: url("../../assets/images/myself_photo3-min.jpg");
+    /* background-image: url("../../assets/images/myself_photo3-min.jpg"); */
+    background-image: url("../../assets/images/my_photo-min.jpg");
     background-position: center;
     background-size: cover;
     transition: all .5s;
