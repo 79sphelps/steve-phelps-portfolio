@@ -288,8 +288,8 @@ header .downlad-btn:hover {
   position: relative;
   background-size: cover;
   z-index: 1;
-  /* background-image: url(../../../../assets/images/Week-1-Free-Autumn-Fun-in-Portland-min.jpg); */
-  background-image: linear-gradient(to bottom right, red, blue);
+  background-image: url(../../../../assets/images/Week-1-Free-Autumn-Fun-in-Portland-min.jpg);
+  /* background-image: linear-gradient(to bottom right, red, blue); */
 }
 
 .intro-section:before {
